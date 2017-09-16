@@ -6,7 +6,8 @@ public class Main {
 		//Please check that your code works and has no
 		//compilation problems before to submit
 		StudentGroup stud = new StudentGroup(2);
-
+        stud.setStudents();
+        stud.getStudent();
 	}
 
 }

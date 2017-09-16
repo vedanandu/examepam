@@ -32,12 +32,14 @@ public class StudentGroup implements StudentArrayOperation {
 
 	public void setStudents(Student[] students) {
 		// Add your implementation here
-		//students[0]= new Student(14,"abc","9/5/97",14.688888);
-		Date d = new Date("1997-05-09");
-		students[0].setId(143);
-		students[0].setFullName("veda");
-		students[0].setBirthDate(d);
-		students[0].setAvgMark(30.123456);
+		/*students[0]= new Student(14,"abc","9/5/97",14.688888);
+		*Date d = new Date("1997-05-09");
+		*students[0].setId(143);
+		*students[0].setFullName("veda");
+		*students[0].setBirthDate(d);
+		*students[0].setAvgMark(30.123456);
+		*/
+		this.students=students;
 	}
 
 
@@ -49,11 +51,11 @@ public class StudentGroup implements StudentArrayOperation {
 
 	public void setStudent(Student student, int index)
 	{
-	    Date d = new Date("1997-05-09");
-		students[index].setId(143);
-		students[index].setFullName("veda");
-		students[index].setBirthDate(d);
-		students[index].setAvgMark(30.123456);
+	   /* Date d = new Date("1997-05-09");
+		*students[index].setId(143);
+		*students[index].setFullName("veda");
+		*students[index].setBirthDate(d);
+		*students[index].setAvgMark(30.123456);*/
 		// Add your implementation here
 	}
 
