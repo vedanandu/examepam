@@ -36,7 +36,7 @@ public class StudentGroup implements StudentArrayOperation {
 		Date d = new Date("1997-05-09");
 		students[0].setId(143);
 		students[0].setFullName("veda");
-		students[0].setBirthDate(d);
+		//students[0].setBirthDate(d);
 		students[0].setAvgMark(30.123456);
 
 		//this.students=students;
