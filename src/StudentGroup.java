@@ -32,7 +32,7 @@ public class StudentGroup implements StudentArrayOperation {
 
 	public void setStudents(Student[] students) {
 		// Add your implementation here
-		students[0]= new Student(14,"abc","9/5/97",14.688888);
+		//students[0]= new Student(14,"abc","9/5/97",14.688888);
 		Date d = new Date("1997-05-09");
 		students[0].setId(143);
 		students[0].setFullName("veda");
