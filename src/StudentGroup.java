@@ -39,7 +39,7 @@ public class StudentGroup implements StudentArrayOperation {
 		//students[0].setBirthDate(d);
 		//students[0].setAvgMark(30.123456);
 
-		//this.students=students;
+		this.students=students;
 	}
 
 

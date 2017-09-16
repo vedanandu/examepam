@@ -6,7 +6,12 @@ public class Main {
 		//Please check that your code works and has no
 		//compilation problems before to submit
 		StudentGroup stud = new StudentGroup(2);
-        stud.setStudents();
+		students = new Student[1];
+		students[0].setId(143);
+		students[0].setFullName("veda");
+		students[0].setBirthDate(d);
+		students[0].setAvgMark(30.123456);
+        stud.setStudents(student[]);
         stud.getStudent();
 	}
 
